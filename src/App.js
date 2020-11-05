@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Button from '@material-ui/core/Button';
+import Paper from '@material-ui/core/Paper';
+import AddIcon from '@material-ui/icons/Add';
+import AddRoundedIcon from '@material-ui/icons/AddRounded';
+const App= () =>{
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+  return <>
+  <div className="main">
+  <div class="centerDiv">
+<br/>
+   <h1>ayush kumar  </h1>
+<br/>
+<input placeholder="add Items" />
+<Button class="btn"><AddRoundedIcon/></Button>
+<ul>
+  {/* <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+
+
+  <li>hello</li> */}
+
+</ul>
+ </div>
+  </div>
+  
+  </>
 }
-
-export default App;
+export default  App;
